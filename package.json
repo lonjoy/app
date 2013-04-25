@@ -13,6 +13,7 @@
   },
   "spm": {
     "output": [
+      "base.js",
       "handy.js"
     ],
     "alias": {
