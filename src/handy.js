@@ -6,7 +6,7 @@ define(function (require, exports, module) {
   var Handy = HandyBase.extend({
     setup: function () {
       //把PageVar挂在root上
-      this.PageVar = $.extend({}, AP._PageVar_, AP.__PageVar__);
+      this.PageVar = $.extend(AP.PageVar, AP._PageVar_, AP.__PageVar__);
     },
     app: function (id, options, callback) {
       var that = this;
