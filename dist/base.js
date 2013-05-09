@@ -1,0 +1,1 @@
+define("handy/app/1.0.0/base",["$","arale/base/1.0.1/base","arale/class/1.0.0/class","arale/events/1.0.0/events"],function(e){"use strict";var a=e("$"),s=e("arale/base/1.0.1/base"),t=s.extend({initialize:function(e,a,s){t.superclass.initialize.call(this,e),this.parent=a,this.root=s||a&&a.root||a,this.setup()},setup:a.noop});return t});
