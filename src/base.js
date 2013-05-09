@@ -1,4 +1,4 @@
-/* handy.js */
+/* base.js */
 define(function (require, exports, module) {
   "use strict";
   var $ = require('$'), Base = require('base');

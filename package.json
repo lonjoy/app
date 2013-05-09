@@ -1,5 +1,5 @@
 {
-  "family": "handy",
+  "root": "handy",
   "name": "app",
   "version": "1.0.0",
   "description": "移动Web开发应用架构",
@@ -11,14 +11,12 @@
   "bugs": {
     "url": "https://github.com/handyjs/app/issues"
   },
-  "spm": {
-    "output": [
-      "base.js",
-      "handy.js"
-    ],
-    "alias": {
-      "$": "$",
-      "base": "arale/base/1.0.1/base"
-    }
+  "dependencies": {
+    "$": "$",
+    "base": "arale/base/1.0.1/base"
+  },
+  "output": {
+    "base.js": ".",
+    "handy.js": "."
   }
 }

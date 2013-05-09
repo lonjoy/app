@@ -1,4 +1,4 @@
-/* handy.js */
+/* base.js */
 define("handy/app/1.0.0/base-debug", [ "$-debug", "arale/base/1.0.1/base-debug", "arale/class/1.0.0/class-debug", "arale/events/1.0.0/events-debug" ], function(require, exports, module) {
     "use strict";
     var $ = require("$-debug"), Base = require("arale/base/1.0.1/base-debug");
